@@ -21,3 +21,12 @@ This is a simple, lightweight, and in express way of building MVC framework on t
 **config.js** - store configuration settings including the database credentials
 
 **routes.js** - contains the routing information
+
+## TODO
+
+### Plans
+
+1. have app.js load the routes.js
+2. have routes.js load the appropriate controllers
+3. have the respective controller load the appropriate models
+4. have the respective controller load the appropriate view file
