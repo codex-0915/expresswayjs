@@ -1,6 +1,6 @@
 const Express = require("express");
 const Router = Express.Router();
-const UserController = require(`controllers/users`);
+const UserController = require(`./controllers/userController`);
 
 Router.get("/", UserController.index);
 Router.get("/login", UserController.viewLoginPage);
