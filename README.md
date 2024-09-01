@@ -29,6 +29,9 @@ This is a simple, lightweight, and in express way of building MVC framework on t
 |-- /assets
 |   |-- /images
 |   |-- /styles
+|   |   |-- main.scss
+|   |   |-- _variables.scss
+|   |   |-- _mixins.scss
 |   |-- /scripts
 |
 |-- /controllers
@@ -53,7 +56,27 @@ This is a simple, lightweight, and in express way of building MVC framework on t
 
 ### Plans
 
-1. have app.js load the routes.js
-2. have routes.js load the appropriate controllers
-3. have the respective controller load the appropriate models
-4. have the respective controller load the appropriate view file
+#### General Tasks
+
+- [ ] Add a sample home page (view page with good design) when starting to run the framework app
+- [ ] Create a sample application (simple small project?)
+- [ ] Add a database (sample working, maybe MongoDB)
+- [ ] Add getting started on README file
+- [ ] Add environment variables
+- [ ] Create convention on controller and model file names (use RoR convention as guide)
+- [ ] Create a CLI command for generating or automating the creation of the model, controller, etc
+- [x] Run project using 'npm run dev' instead of 'node app.js'
+- [ ] Add TailwindCSS and Bootstrap for styling
+- [ ] Run on TypeScript
+
+#### Loading of View File
+
+- [x] have app.js load the routes.js
+- [x] have routes.js load the appropriate controllers
+- [ ] have the respective controller load the appropriate models
+- [x] have the respective controller load the appropriate view file
+
+#### Adding a Database
+
+- [ ] Setting up the database (maybe MongoDB)
+- [ ] Adding environment variable and example .env file on the project
