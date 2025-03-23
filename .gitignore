@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Logs
+logs
+*.log
+*.sqlite-journal
+
+# SQLite database
+expressway/database/*.sqlite
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Docker-related
+*.pid
+docker-compose.override.yml
+
+# Compiled views (if any)
+*.ejs~
+
+# Optional: Ignore editor configs
+.vscode/
+.idea/
+*.swp
+
+# CLI-generated artifacts
+expressway/database/migrations/*.js
