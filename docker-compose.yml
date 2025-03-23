@@ -6,5 +6,6 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./expressway/database:/usr/src/app/expressway/database
-    command: npm start
+      - .:/usr/src/app         # Mount current dir to container
+      - /usr/src/app/node_modules  # Avoid overwriting node_modules
+    command: npm run dev
